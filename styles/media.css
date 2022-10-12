@@ -173,30 +173,19 @@
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
+  .header-content .left-header{
+    display: none;
+  }
   .header-content .left-header .h-shape {
-    display: inline-flex;
+   display:none; 
   }
-  .header-content .left-header .h-shape .image {
-    border-radius: var(--br-sm-2);
-    height: 50%;
-    width: 68%;
-    margin-left: 4rem;
-    background-color: 159;
-    transition: all 0.4s ease-in-out;
-  }
-  .header-content .left-header .h-shape .image img {
-    width: 50%;
-    height: 90%;
-    margin-top: 50px;
-    transition: all 0.4s ease-in-out;
-  }
-  .right-header {
+  .header-content .right-header {
     grid-row: 1;
     padding-right: 0rem !important;
     width: 90%;
     margin: 0 auto;
   }
-  .right-header .name {
+  .header-content .right-header .name {
     font-size: 2.5rem !important;
     text-align: center;
     padding-top: 3rem;
